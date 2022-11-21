@@ -1,4 +1,3 @@
 # Dotfiles Repo
-<img title="My awesomewm setup" alt="" src="/awesomewmSetup.png">
-
-# Programs
+<img alt="" src="/awesomewmSetup.png">
+## My Awesomewm setup+
