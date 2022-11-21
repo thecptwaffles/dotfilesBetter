@@ -1,7 +1,6 @@
 # Dotfiles Repo
 <img alt="" src="/awesomewmSetup.png">
 
-## My AwesomeWM Setup
 
 # programs
 * awesome
