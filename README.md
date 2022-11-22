@@ -40,3 +40,6 @@
 * ntfs-3g
 * notification-daemon
 * glava
+
+# Keybinds
+<img alt="" src="/awesomekeybinds.png">
