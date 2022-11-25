@@ -121,16 +121,15 @@ alias rl="exec bash"
 alias cl="clear"
 alias vi="vim"
 alias ls="ls -a"
-alias update='sudo nala update && sudo nala upgrade'
-alias install='sudo nala install'
+alias update='sudo pacman -Syu'
+alias install='sudo pacman -S'
 alias vimconf='vim ~/.config/nvim/init.vim'
-alias remove='sudo apt remove'
+alias remove='sudo pacman -R'
 alias plugconf='vim ~/.config/nvim/vim-plug/plugins.vim'
 alias themeconf='sudo vim /usr/share/awesome/themes/default/theme.lua'
 alias ..='cd ..'
 alias bashconf="vim ~/.bashrc"
-alias kittyconf="vim .config/kitty/kitty.conf"
-alias awesomeconf='vim ~/.config/awesome/rc.lua'
+alias termconf="vim .config/kitty/kitty.conf"
 #-------------------------------------------------------------------
 #games
 #-------------------------------------------------------------------
@@ -163,7 +162,7 @@ alias gh='git hist'
 #--------------------------------------------------------------------
 #ssh
 #-------------------------------------------------------------------
-alias shw='ssh wafflecraft@192.168.50.7 -p 57482'
+alias shw='ssh wafflecraft@192.168.50.7 -p 17692'
 
 
 ##-----------------------------------------------------
