@@ -41,5 +41,11 @@
 * notification-daemon
 * glava
 
+#gtk Theme And Icon Links
+*[Material Black gtk Theme](https://www.gnome-look.org/p/1316887/)
+*[Numix Icon Theme](https://www.pling.com/p/1333360/)
+*[Miya Icon Theme](https://www.gnome-look.org/p/1715694)
+*[Zafiro Icon Theme](https://www.gnome-look.org/p/1715694)
+
 # Keybinds
 <img alt="" src="/awesomekeybinds.png">
