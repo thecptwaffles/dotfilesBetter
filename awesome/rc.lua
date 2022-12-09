@@ -45,7 +45,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
+beautiful.init(gears.filesystem.get_themes_dir() .. "midnight/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "kitty"
@@ -170,7 +170,7 @@ awful.screen.connect_for_each_screen(function(s)
     set_wallpaper(s)
 
     -- Each screen has its own tag table.
-    awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
+    awful.tag({ "1", "2", "3"}, s, awful.layout.layouts[1])
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
@@ -326,9 +326,12 @@ globalkeys = gears.table.join(
 awful.key({ modkey},            "n",     function () awful.spawn.with_shell ('pcmanfm') end,
               {description = "Launch pcmanfm", group = "launcher"}),
 
-	awful.key({ modkey, "Shift" },            "s",     function () awful.spawn.with_shell ('flatpak run com.spotify.Client') end,
+	awful.key({ modkey, "Control" },            "s",     function () awful.spawn.with_shell ('flatpak run com.spotify.Client') end,
               {description = "Launch spotify", group = "launcher"}),
-      
+
+      awful.key({ modkey, "Shift" },            "s",     function () awful.spawn.with_shell ('flameshot gui') end,
+              {description = "lanch screen tool", group = "client"}),
+
  awful.key({ modkey },            "m",     function () awful.util.spawn ('evolution') end,
               {description = "Launch Evolution", group = "launcher"}),
 
@@ -590,6 +593,5 @@ awful.spawn.with_shell('libnotify')
 awful.spawn.with_shell('udiskie -t')
 awful.spawn.with_shell('volumeicon')
 awful.spawn.with_shell('cbatticon')
-awful.spawn.with_shell('glava --desktop')
-awful.spawn.with_shell('flameshot')
+awful.spawn.with_shell('glava -d')
 awful.spawn.with_shell('')
