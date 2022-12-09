@@ -16,7 +16,7 @@ theme.font          = "Deja vu 12"
 theme.bg_normal     = "1e292d"
 theme.bg_focus      = "#1e2d2a"
 theme.bg_urgent     = "#ff0000"
-theme.bg_minimize   = "#59364d"
+theme.bg_minimize   = "#1e222d"
 theme.bg_systray    = theme.bg_normal
 
 theme.fg_normal     = "#aaaaaa"
