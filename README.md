@@ -46,7 +46,6 @@
 * [Numix Icon Theme](https://www.pling.com/p/1333360/)
 * [Miya Icon Theme](https://www.gnome-look.org/p/1715694)
 * [Zafiro Icon Theme](https://www.gnome-look.org/p/1715694)
-* [Josefin Sans Font](https://www.freebestfonts.com/josefin-sans-font)
 
 # Keybinds
 <img alt="" src="/awesomekeybinds.png">
