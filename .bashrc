@@ -120,16 +120,17 @@ fi
 alias rl="exec bash"
 alias cl="clear"
 alias vi="vim"
-alias ls="ls -a"
+alias ls="lsd -a"
 alias update='sudo pacman -Syu'
 alias install='sudo pacman -S'
 alias vimconf='vim ~/.config/nvim/init.vim'
 alias remove='sudo pacman -R'
 alias plugconf='vim ~/.config/nvim/vim-plug/plugins.vim'
-alias themeconf='sudo vim /usr/share/awesome/themes/default/theme.lua'
+alias themeconf='sudo vim /usr/share/awesome/themes/cherry/theme.lua'
 alias ..='cd ..'
 alias bashconf="vim ~/.bashrc"
-alias termconf="vim .config/kitty/kitty.conf"
+alias termconf="vim ~/.config/kitty/kitty.conf"
+alias awesomeconf="vim ~/.config/awesome/rc.lua"
 #-------------------------------------------------------------------
 #games
 #-------------------------------------------------------------------
