@@ -7,6 +7,8 @@
 * picom 
 * nitrogen
 * lightdm
+* lightdm gtk greeter
+* lightdm gtk greeter settings
 * dmenu
 * flameshot
 * volumeicon
