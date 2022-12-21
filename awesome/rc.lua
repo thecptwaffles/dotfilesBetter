@@ -330,10 +330,17 @@ awful.key({ modkey},            "n",     function () awful.spawn.with_shell ('pc
               {description = "Launch spotify", group = "launcher"}),
 
       awful.key({ modkey, "Shift" },            "s",     function () awful.spawn.with_shell ('flameshot gui') end,
-              {description = "lanch screen tool", group = "client"}),
+              {description = "lanch screen shot tool", group = "client"}),
 
  awful.key({ modkey },            "m",     function () awful.util.spawn ('evolution') end,
               {description = "Launch Evolution", group = "launcher"}),
+
+awful.key({ modkey, "Shift" },            "f",     function () awful.spawn.with_shell ('pamixer -i 5') end,
+              {description = "Increase volume", group = "client"}),
+
+awful.key({ modkey, "Shift" },            "v",     function () awful.spawn.with_shell ('pamixer -d 5') end,
+              {description = "decrease volume", group = "client"}),
+
 
     awful.key({ modkey }, "x",
               function ()
