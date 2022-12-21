@@ -11,6 +11,10 @@
 * dmenu
 * flameshot
 * volumeicon
+* pamixer
+* Blueman
+* bluez
+* bluez-utils
 * lxappearance 
 * xfce4-notifyd
 * xfce4-power-manager
@@ -41,9 +45,7 @@
 * ntfs-3g
 * notification-daemon
 * glava
-* Blueman
-* bluez
-* bluez-utils
+
 
 #  Links
 * [Material Black gtk Theme](https://www.gnome-look.org/p/1316887/)
