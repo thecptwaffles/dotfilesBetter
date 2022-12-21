@@ -320,7 +320,7 @@ globalkeys = gears.table.join(
     awful.key({ modkey },            "b",     function () awful.util.spawn ('firefox') end,
               {description = "Launch Firefox", group = "launcher"}),
 
-       awful.key({ modkey },            "d",     function () awful.util.spawn ('discord') end,
+       awful.key({ modkey },            "d",     function () awful.spawn.with_shell ('flatpak run com.discordapp.Discord') end,
               {description = "Launch discord", group = "launcher"}),
 
 awful.key({ modkey},            "n",     function () awful.spawn.with_shell ('pcmanfm') end,
