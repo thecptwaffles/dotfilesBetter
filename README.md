@@ -15,6 +15,7 @@
 * Blueman
 * bluez
 * bluez-utils
+* brightnessctl
 * lxappearance 
 * xfce4-notifyd
 * xfce4-power-manager
