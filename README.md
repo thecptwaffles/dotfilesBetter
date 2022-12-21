@@ -41,6 +41,9 @@
 * ntfs-3g
 * notification-daemon
 * glava
+* Blueman
+* bluez
+* bluez-utils
 
 #  Links
 * [Material Black gtk Theme](https://www.gnome-look.org/p/1316887/)
