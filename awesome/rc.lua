@@ -341,6 +341,22 @@ awful.key({ modkey, "Shift" },            "Up",     function () awful.spawn.with
 awful.key({ modkey, "Shift" },            "Down",     function () awful.spawn.with_shell ('pamixer -d 5') end,
               {description = "decrease volume", group = "client"}),
 
+awful.key({ modkey, "Shift" },            "Right",     function () awful.spawn.with_shell ('brightnessctl set +10%') end,
+              {description = "increase brightness", group = "client"}),
+
+awful.key({ modkey, "Shift" },            "Left",     function () awful.spawn.with_shell ('brightnessctl set 10%-') end,
+              {description = "increase brightness", group = "client"}),
+
+awful.key({ modkey, "Control" },            "m",     function () awful.spawn.with_shell ('flatpak run org.prismlauncher.PrismLauncher') end,
+              {description = "Launch Prism Laucher", group = "client"}),
+
+awful.key({ modkey },            "m",     function () awful.spawn.with_shell ('flatpak run com.vscodium.codium') end,
+              {description = "Launch Prism Laucher", group = "client"}),
+
+awful.key({ modkey, "Shift" },            "t",     function () awful.spawn.with_shell ('flatpak run org.kde.tokodon') end,
+              {description = "Launch Mastodon Client", group = "client"}),
+
+
 
     awful.key({ modkey }, "x",
               function ()
@@ -601,4 +617,4 @@ awful.spawn.with_shell('udiskie -t')
 awful.spawn.with_shell('volumeicon')
 awful.spawn.with_shell('cbatticon')
 awful.spawn.with_shell('glava -d')
-awful.spawn.with_shell('')
+awful.spawn.with_shell('blueman-applet')
