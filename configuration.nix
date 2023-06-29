@@ -103,8 +103,11 @@
       mpv
       vlc
       fish
-      steam
-    #  thunderbird
+      prismlauncher
+      spotify
+      discord
+      lutris
+      heroic
     ];
   };
 
